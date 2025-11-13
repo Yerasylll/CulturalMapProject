@@ -70,9 +70,6 @@ function createPopupContent(country) {
             <div style="display: flex; gap: 5px; flex-wrap: wrap; margin-bottom: 10px;">
                 <span style="background: #dbeafe; color: #1e40af; padding: 3px 8px; border-radius: 12px; font-size: 0.8rem;">Capital: ${country.capital}</span>
             </div>
-            <button onclick="showCountryModal(${country.id})" class="btn btn-sm btn-primary w-100">
-                View Details
-            </button>
         </div>
     `;
 }
